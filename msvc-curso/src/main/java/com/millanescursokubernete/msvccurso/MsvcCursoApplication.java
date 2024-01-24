@@ -1,0 +1,15 @@
+package com.millanescursokubernete.msvccurso;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.openfeign.EnableFeignClients;
+
+@EnableFeignClients
+@SpringBootApplication
+public class MsvcCursoApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(MsvcCursoApplication.class, args);
+	}
+
+}
