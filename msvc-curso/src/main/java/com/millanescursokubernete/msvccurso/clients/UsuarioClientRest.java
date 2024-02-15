@@ -10,7 +10,7 @@ import java.util.List;
 
 
 
-@FeignClient(name = "msvc-usuario", url = "localhost:8000")
+@FeignClient(name = "msvc-usuario", url = "msvc-usuario:8001") //tiene que apuntar al nombre del servicio que se encuentra en el properties
 public interface UsuarioClientRest {
 
     @GetMapping("/{id}")
